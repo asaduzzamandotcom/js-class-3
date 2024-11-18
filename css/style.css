@@ -1,0 +1,56 @@
+/* COMMON CSS STARTS HERE */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,ol{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p,span,ol{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* COMMON CSS ENDS HERE */
+section{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+/* counter starts here */
+.counter *{
+  width: 33.33%;
+  height: 50px;
+  text-align: center;
+  font-size: 25px;
+}
+.counter{
+  max-width: 350px;
+}
+/* password toggler starts here */
+.passwordField{
+  position: relative;
+}
+.passwordField input{
+  width: 400px;
+  height: 45px;
+  border-radius: 25px;
+  border: none;
+  border: 1px solid #888;
+  padding: 0 20px;
+}
+.passwordField button{
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+}
